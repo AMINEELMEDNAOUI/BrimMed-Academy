@@ -1,0 +1,65 @@
+.annonce-card {
+    background-color: #1ab8b2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-content {
+    padding: 10px;
+}
+
+.annonces-container {
+    margin: 20px;
+}
+
+.annonces-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+.delete-button{
+    margin-left: 250px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    color: red;
+}
+.h2card{
+    margin-right: 190px;
+    margin-top: -40px;
+    color:rgb(203, 85, 0) ;
+}
+.pcard{
+    margin-top: 23px;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+.pcont{
+    font-size: large;
+    width: auto;
+    border: 1px solid rgb(203, 85, 0);
+    height: auto;
+    padding-left: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 7px;
+    word-wrap: break-word; /* Pour forcer le retour à la ligne en cas de nécessité */
+    word-break: break-word;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+.pda{
+    margin-top: 30px;
+    margin-left: 200px;
+    margin-bottom: 0;
+}
+.pcontent{
+    margin: 0;
+    margin-left: 5px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

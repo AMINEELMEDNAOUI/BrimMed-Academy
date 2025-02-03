@@ -1,0 +1,346 @@
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+ 
+  
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+ 
+  
+}
+.header .container{
+  display:flex;
+}
+
+/* Header Styles */
+.header {
+  background: #f8f9fa;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+  height: 80px;
+  
+}
+
+.header .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.btn {
+  background: #007bff;
+  color: #fff;
+  padding: 8px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Banner Styles */
+.banner {
+  background: url('Group-Training-Online.png') no-repeat 97% 20%;
+  background-size: 50%;
+  color: #fff;
+  padding: 100px 0;
+  text-align: center;
+  height: 600px;
+  background-color: rgb(203, 85, 0);
+}
+
+.banner h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.banner p {
+  font-size: 18px;
+}
+
+/* About Styles */
+.about {
+  padding: 60px 0;
+  background: #f9f9f9;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* Courses Styles */
+.courses {
+  padding: 60px 0;
+  text-align: center;
+}
+
+.courses h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.course-list {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.course {
+  background: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 300px;
+}
+
+.course h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.course p {
+  font-size: 16px;
+}
+
+/* Teachers Styles */
+.teachers {
+  padding: 60px 0;
+  background: #f9f9f9;
+  text-align: center;
+}
+
+.teachers h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.teacher-list {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.teacher {
+  background: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 300px;
+}
+
+.teacher h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.teacher p {
+  font-size: 16px;
+}
+
+/* Testimonials Styles */
+.testimonials {
+  padding: 60px 0;
+  text-align: center;
+}
+
+.testimonials h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.testimonial-list {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.testimonial {
+  background: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 300px;
+  font-weight: bolder;
+}
+.testimonial:hover{
+  background-color: rgb(0, 208, 139);
+  cursor: pointer;
+}
+
+.testimonial p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.testimonial h3 {
+  font-size: 18px;
+}
+
+/* Footer Styles */
+.footer {
+  background: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer .footer-info {
+  margin-bottom: 10px;
+}
+
+.footer .footer-info p {
+  margin: 5px 0;
+}
+
+.footer p {
+  margin:0;
+}
+.homeimgbm{
+  position:absolute;
+  bottom:90%;
+  right:94%;
+}
+.header nav{
+  margin-left: 40px;
+  margin-top: 20px;
+  width: 1000px;
+}
+.divsignin{
+  left:90%;
+  top: 3%;
+  border: 1px solid rgb(201, 199, 199);
+  border-radius: 20px;
+  width: 110px;
+  text-align: center;
+  height: 40px;
+  background-color: #512cd8;
+  position: absolute;
+  padding-top: 5px;
+  
+}
+.signinhome{
+  color: white;
+  text-decoration: none;
+  font-weight: bolder;
+  
+}
+.divsignin:hover{
+  background-color: rgb(255, 106, 0);
+  
+}
+.home{
+  font-weight: bolder;
+  justify-content: space-between;
+  margin-left:60px ;
+}
+.home a:hover{
+  color: rgb(203, 85, 0);
+}
+.banner .container{
+  z-index: 30;
+}
+.divh11,.divh12,.divh13,.divh14{
+  margin-right: 900px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 50px;
+}
+.divh11{
+  color: black;
+}
+.divh12{
+  position: absolute;
+  bottom: 58%;
+  left: 33%;
+  color: rgb(0, 208, 139);
+}
+.divh13{
+  color: black;
+}
+.divh14{
+  position: absolute;
+  bottom: 49%;
+  left: 27%;
+  color: rgb(0, 208, 139);
+}
+.pbanner{
+  width: 50%;
+  font-family:'Times New Roman', Times, serif;
+  font-size:40px;
+  margin-top: 70px;
+  font-weight: bolder;
+ 
+}
+
+.about {
+  background: linear-gradient(to bottom, rgba(203, 85, 0, 1) 0%, rgba(255, 165, 0, 1) 100%);
+}
+
+.courses {
+  background: linear-gradient(to bottom, rgba(255, 165, 0, 1) 0%, rgba(255, 136, 0, 1) 100%);
+}
+
+.teachers {
+  background: linear-gradient(to bottom, rgba(255, 136, 0, 1) 0%, rgba(255, 116, 0, 1) 100%);
+}
+
+.testimonials {
+  background: linear-gradient(to bottom, rgba(255, 116, 0, 1) 0%, rgba(255, 102, 0, 1) 100%);
+}
+.about .container h2 , .courses .container h2 ,.teachers .container h2 ,.testimonials .container h2{
+  font-weight: bolder;
+  font-size: 40px;
+  
+}
+.course:hover{
+  background-color:rgb(0, 208, 139) ;
+}
+.course{
+  cursor: pointer;
+}
+.teacher-photo {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+.elf,.sekk,.azmi{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight:500;
+  font-size: 20px;
+}
+.azmat,.loumat,.sekkmat{
+  font-weight: bolder;
+  color: #1500ff;
+  font-family: 'Times New Roman', Times, serif;
+}
+.teacher:hover{
+  background-color: rgb(0, 208, 139);
+  cursor: pointer;
+}
+.footcont{
+  font-weight: bolder;
+}
+.footer{
+  background: linear-gradient(to bottom, rgba(255, 102, 0, 1) 0%, rgb(47, 152, 117) 100%);
+  color: black;
+  font-weight: bold;
+}

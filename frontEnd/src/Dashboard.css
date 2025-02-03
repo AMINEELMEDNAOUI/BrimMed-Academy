@@ -1,0 +1,25 @@
+.data-summary{
+    display: flex;
+    position: absolute;
+    top: 24%;
+    left: 80%;
+
+}
+.data-summary p{
+    font-weight: bolder;
+    margin-left: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    color:rgb(203, 85, 0) ;
+}
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 10px;
+}
+.etudic{
+    margin-right: 4px;
+}
+.profic{
+    margin-right: 4px;
+    margin-top: 3px;
+}

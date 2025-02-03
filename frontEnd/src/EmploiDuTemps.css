@@ -1,0 +1,73 @@
+.levelselect{
+    position: absolute;
+   
+    top: 35%;
+    height: 50px;
+    width: 200px;
+    border-radius: 7px;
+    font-size: large;
+}
+.levelselect:hover{
+    cursor: pointer;
+    color: rgb(203, 85, 0);
+    font-weight: bolder;
+    font-size: larger;
+}
+.emploi-table{
+    margin-top: 160px;
+
+}
+
+.level{
+    color: rgb(255, 0, 0);
+}
+.modalemploi{
+    background-color: rgb(255, 255, 255);
+    height: 80px;
+    width: 150px;
+    position: absolute;
+    z-index: 2;
+    border-radius: 5px;
+    box-shadow: 2px 5px 12px 0px rgba(0,0,0,0.49);
+  -webkit-box-shadow: 2px 5px 12px 0px rgba(0,0,0,0.49);
+  -moz-box-shadow: 2px 5px 12px 0px rgba(0,0,0,0.49);
+  width: 600px;
+  height:340px;
+  top: 50%;
+  left: 35%;
+}
+.buttemp{
+   position: absolute;
+   top: 89%;
+   left: 73%;
+}
+.day-select{
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: 60px;
+    border-radius: 7px;
+    height: 40px;
+}
+.inputext{
+    margin-top: 40px;
+    width: 500px;
+    margin-left: 10px;
+    border-radius: 7px;
+    height: 60px;
+}
+.day-select:hover{
+    cursor: pointer;
+    color: rgb(203, 85, 0);
+}
+.h3emp{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    width: 330px;
+    margin-left: 120px;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(203, 85, 0);
+}

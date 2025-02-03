@@ -1,0 +1,256 @@
+body {
+    overflow: hidden;
+}
+.divinit{
+    display: flex;
+    
+    
+}
+.time{
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 40px;
+    color:white;
+}
+ div .h11{
+    color:rgb(255, 255, 255);
+    margin-top: 50px;
+    margin-left: 28px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+}
+div .h12{
+    color:rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 15px;
+    font-size: 60px;
+}
+.div1{
+    background-color: rgb(203, 85, 0);
+    width: 1000px;
+    position:absolute;
+    height: 735px;
+    overflow: hidden;
+}
+.div2 h3{
+    font-weight: bolder;
+    font-style: italic;
+    width: 200px;
+   
+}
+.div2{
+    margin-left: 400px;
+    width:900px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 30px;
+    padding-left: 300px;
+    padding-right:900px ;
+    height: 735px;
+    overflow: hidden;
+    padding-top: 200px;
+    z-index: 3;
+    background-color: white;
+    
+    
+}
+.email{
+    width: 800px;
+    margin-top: 20px;
+    
+}
+.password{
+    width: 800px;
+    margin-top: 20px;
+}
+.loginbutt{
+    width:800px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+    height: 50px;
+    border-radius: 10px;
+}
+.emaillabel{
+    margin-bottom: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.passlabel{
+    margin-bottom: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.firstlabel{
+    margin-bottom: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 200px;
+    margin-left: 10px;
+}
+.lastlabel{
+    margin-bottom: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    width:200px;
+    margin-left: 10px;
+}
+.firstlast{
+    display: flex;
+}
+.lastname{
+  margin-left: 200px;
+  
+}
+.firstname input[type="text"]{
+    border: 1px solid rgb(44, 43, 43);
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute;
+    width:390px;
+}
+.lastname input[type="text"]{
+    border: 1px solid rgb(44, 43, 43);
+    border-radius: 10px;
+    padding: 10px;
+    width:390px;
+   
+}
+.create{
+    position: absolute;
+    bottom: 14%;
+    right: 1%;
+    top: 24%;
+    
+}
+
+.email input[type="text"]{
+    border: 1px solid rgb(44, 43, 43);
+    border-radius: 10px;
+    padding: 10px;
+}
+.password input[type="password"]{
+    border: 1px solid rgb(44, 43, 43);
+    border-radius: 10px;
+    padding: 10px;
+}
+.imageedu{
+    position: absolute;
+    left: 25%;
+    top: 65%;
+    z-index: 5;
+  
+}
+.imagebrmed{
+    position: absolute;
+    width: 250px;
+    top: -8%;
+    left: 87%;
+
+}
+.frgpass{
+    cursor: pointer;
+    width: 900px;
+    height: 10px;
+    font-size: large;
+    color: rgb(118, 32, 199);
+    text-decoration: none;
+    margin-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.hr1{
+    font-size: 10px;
+    color: black;
+    
+}
+.por{
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    font-size: 40px;
+    margin-left: 370px;
+    color: rgb(85, 95, 95);
+    text-decoration:underline;
+    
+}
+.google {
+    display: flex;
+    align-items: center; 
+    font-family: Arial, sans-serif; 
+    font-size: 16px; 
+    margin-top: 10px;
+    border: 1px solid black; 
+    width:400px;
+    border-radius: 7px;
+    margin-left: 200px;
+    cursor: pointer;
+}
+.google:hover{
+    background-color: rgb(203, 85, 0);
+    color: white;
+}
+.google p{
+    color: rgb(68, 68, 68);
+    padding-left: 140px;
+    padding-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.fagoogle{
+    font-size: 30px;
+    padding-left: 98px;
+    position: absolute;
+}
+.dnthvacc{
+    width: 900px;
+    margin-top: 35px; 
+    display: flex;
+    margin:0; 
+    margin-top: 8px;
+}
+.dnthvaccp{
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom:60px;
+}
+.sgnup{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 10px;
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+    
+}
+.sgnup:hover{
+    color: green;
+}
+.tr-select{
+    width:800px;
+    height: 50px;
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.orgoogle{
+    position: absolute;
+    bottom: -14%;
+}
+.checkbox-group-label{
+    margin-bottom: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 200px;
+   margin-top: 15px;
+}
+.h3create{
+    width: 600%;
+    
+}
+/* custom-notifications.css */
+.ant-notification-notice {
+    background-color: #f0f9ff; /* Light blue background */
+    border-left: 5px solid #1890ff; /* Blue left border */
+    color: #000; /* Black text color */
+}
+
+.ant-notification-notice-message {
+    font-weight: bold; /* Bold title */
+    font-size: 16px; /* Larger font size for title */
+}
+
+.ant-notification-notice-description {
+    font-size: 14px; /* Slightly larger font size for description */
+}

@@ -1,0 +1,65 @@
+.personal-info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px; 
+    
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; 
+    margin-top: 60px;
+    height: 450px;
+}
+
+.student-card {
+    background-color: #ffffff ;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    width: 1000px; /* Largeur des cartes */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.student-card h3 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+.card-actions {
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+.sdv{
+    text-align: center;
+    margin-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.h3cardst{
+    font-weight: bolder;
+    color:rgb(203, 85, 0) ;
+    
+}
+.pemst{
+    margin-top: 60px;
+    text-align: left;
+    font-weight: bolder;
+    font-size: larger;
+}
+.plevst{
+    margin-top: 30px;
+    text-align: left;
+    font-weight: bolder;
+    font-size: larger;
+}
+.psubst{
+    margin-top: 30px;
+    text-align: left;
+    font-weight: bolder;
+    font-size: larger;
+}
